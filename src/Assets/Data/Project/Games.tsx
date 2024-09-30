@@ -1,3 +1,5 @@
+import Game2DPlatform from '../../Images/Games/Photo_Project_2DPlatformGame.png';
+
 interface Project {
   title: string;
   description: string[];
@@ -13,15 +15,15 @@ interface Project {
 
 const projectData: Project[] = [
   {
-    title: 'Simple 2D ',
+    title: 'Simple 2D Platformer Game',
     description: [
-        '',
+        'A classic 2D platformer where players collect apples to increase their score while dodging bombs that appear on screen. The goal is to survive as long as possible and rack up the highest score by skillfully avoiding bombs and gathering apple as much as possible.',
     ],
-    year: '',
+    year: '2022',
     language: [
-        '',
+        'C#', 'Unity',
     ],
-    image: '',
+    image: Game2DPlatform,
     github: '',
     collabs: {
         name: [''],

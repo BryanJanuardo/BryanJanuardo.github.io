@@ -7,7 +7,7 @@ import Subtitle from './Components/Subtitle';
 
 import DataProjectWebsites from './Assets/Data/Project/Websites';
 import DataProjectMobiles from './Assets/Data/Project/Mobiles';
-// import DataProjectGames from './Assets/Data/Project/Games';
+import DataProjectGames from './Assets/Data/Project/Games';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           <Subtitle text='Mobiles'/>
           <ContentCard projectData={DataProjectMobiles} />
           <Subtitle text='Games'/>
-          <ContentCard projectData={DataProjectMobiles} />
+          <ContentCard projectData={DataProjectGames} />
         </div>
         
       </div>
