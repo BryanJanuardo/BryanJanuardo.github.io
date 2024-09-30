@@ -3,11 +3,16 @@ import Navbar from './Components/Navbar';
 import ProfileCard from './Components/ProfileCard';
 import ContentCard from './Components/ContentCard';
 import Title from './Components/Title';
+import Subtitle from './Components/Subtitle';
 
-import DataProject from './Assets/Data/Data_Project';
+import DataProjectWebsites from './Assets/Data/Project/Websites';
+import DataProjectMobiles from './Assets/Data/Project/Mobiles';
+// import DataProjectGames from './Assets/Data/Project/Games';
+
 function App() {
   return (
     <div>
+      
       <Navbar/>
       <div className='z-10'>
         <ProfileCard/>
@@ -15,7 +20,12 @@ function App() {
         <div className='flex flex-col items-center'>
           <Title text="Projects"/>
           <hr className=' mb-4 w-3/4 border-2 border-dark' />
-          <ContentCard projectData={DataProject} />
+          <Subtitle text='Websites'/>
+          <ContentCard projectData={DataProjectWebsites} />
+          <Subtitle text='Mobiles'/>
+          <ContentCard projectData={DataProjectMobiles} />
+          <Subtitle text='Games'/>
+          <ContentCard projectData={DataProjectMobiles} />
         </div>
         
       </div>

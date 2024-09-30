@@ -1,3 +1,8 @@
+import BeebookPhoto from '../../Images/Projects/Websites/Photo_Project_Beebook.png';
+import CinemalixPhoto from '../../Images/Projects/Websites/Photo_Project_Cinemalix.png';
+import Makemeupzz from '../../Images/Projects/Websites/Photo_Project_Makemeupzzz.png';
+import Caritukang from '../../Images/Projects/Websites/Photo_Project_Caritukang.png';
+
 interface Project {
     title: string;
     description: string[];
@@ -28,7 +33,7 @@ interface Project {
       language: [
         'PHP', 'HTML', 'CSS', 'JS', 'Laravel', 'MySQL'
       ],
-      image: '/Assets/Images/Project/Photo_Project_Beebook.png',
+      image: BeebookPhoto,
       github: 'https://github.com/BryanJanuardo/BeeBook',
       collabs: {
         name: [
@@ -60,7 +65,7 @@ interface Project {
       language: [
         'C#', 'HTML', 'Crystal Reports', 'SQL Server', 'ASP.NET',
       ],
-      image: '/Assets/Images/Project/Photo_Project_MakeMeUpzzz.png',
+      image: Makemeupzz,
       github: 'https://github.com/BryanJanuardo/MakeMeUpzz',
       collabs: {
         name: [
@@ -77,24 +82,6 @@ interface Project {
         ],
       },
     },
-
-    {
-      title: 'Tracker: Foods & Drinks Calorie Tracker App',
-      description: [
-        'Calorie Tracking: Calculates calorie intake based on consumed foods and drinks.',
-        'Tracking Management: Comprehensive tools for managing and monitoring consumption data.',
-      ],
-      year: '2023',
-      language: [
-        'Android Studio', 'Java', 'XML'
-      ],
-      image: '/Assets/Images/Project/Photo_Project_Tracker.png',
-      github: 'https://github.com/BryanJanuardo/Aplikasi-Tracker',
-      collabs: {
-        name: [''],
-        link: [''],
-      },
-    },
     
     {
       title: 'Cinemalix: Movie Ticket Booking Management App',
@@ -107,7 +94,7 @@ interface Project {
       language: [
         'PHP', 'HTML', 'CSS', 'JS', 'Laravel', 'MySQL',
       ],
-      image: '/Assets/Images/Project/Photo_Project_Cinemalix.png',
+      image: CinemalixPhoto,
       github: 'https://github.com/BernardBerenes/Cinemalix',
       collabs: {
         name: [
@@ -126,24 +113,37 @@ interface Project {
     },
 
     {
-      title: 'Android Studio Calculator',
+      title: '(BeeHack 5.0) CariTukang: Online Service Provider',
       description: [
-        'Authentication System: Secure user registration and login with Firebase.',
-        'Shape Calculations: Calculate area and volume of basic shapes.',
-        'Counter: Functionality to increment and decrement values dynamically.',
+        'Service Finder: Find workers with specific skills and view detailed profiles.',
+        'Authentication System: User registration and login.',
+        'Service Progress Tracking: Monitor the status of ongoing services.',
+        'Rating System: Rate workers and customers after service completion.',
+        'Worker Application: Users can apply to become service providers.',
+        'Admin Worker Management: Manage worker profiles and services.',
+        'Search & Filter Skills: Filter workers based on skills for targeted searches.',
+        'Database Integration: Fully functional website with SQL database support.',
       ],
       year: '2024',
       language: [
-        'Android Studio', 'Java', 'XML', 'Firebase',
+        'PHP', 'HTML', 'CSS', 'Tailwind', 'JS', 'Laravel', 'MySQL',
       ],
-      image: '/Assets/Images/Project/Photo_Project_AndroidStudioCalculator.png',
-      github: 'https://github.com/BryanJanuardo/FinalProjectLnT_Mobile',
+      image: Caritukang,
+      github: 'https://github.com/BryanJanuardo/BeeHack',
       collabs: {
-        name: [''],
-        link: [''],
+        name: [
+          'David Huang', 
+          'Wilson Wijaya', 
+          'Ferry Febrian',
+        ],
+        link: [
+          'https://www.linkedin.com/in/itsdavidhuang/',
+          'https://www.linkedin.com/in/wijaya-wilson/',
+          'https://www.linkedin.com/in/ferry-febrian-it/',
+        ],
       },
     },
-
+    
     {
       title: '',
       description: [
@@ -161,5 +161,6 @@ interface Project {
       },
     },
   ];
+
   
 export default projectData;
