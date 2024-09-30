@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/BryanJanuardo.github.io/static/css/main.7db926ed.css",
-    "main.js": "/BryanJanuardo.github.io/static/js/main.c5d4b1b3.js",
+    "main.js": "/BryanJanuardo.github.io/static/js/main.3029ca8f.js",
     "static/js/453.6a54098e.chunk.js": "/BryanJanuardo.github.io/static/js/453.6a54098e.chunk.js",
+    "static/media/Photo_Project_Cinemalix.png": "/BryanJanuardo.github.io/static/media/Photo_Project_Cinemalix.49f21b682607101c0cc1.png",
+    "static/media/Photo_Project_Beebook.png": "/BryanJanuardo.github.io/static/media/Photo_Project_Beebook.8014136533defd6c341a.png",
     "static/media/Photo_Profile.png": "/BryanJanuardo.github.io/static/media/Photo_Profile.1fcf2665e54ecd0fcf2b.png",
+    "static/media/Photo_Project_AndroidStudioCalculator.png": "/BryanJanuardo.github.io/static/media/Photo_Project_AndroidStudioCalculator.4cfa66d2b10ddfce61cf.png",
+    "static/media/Photo_Project_Caritukang.png": "/BryanJanuardo.github.io/static/media/Photo_Project_Caritukang.d26f1b37c582346cb114.png",
     "static/media/Lato-Regular.ttf": "/BryanJanuardo.github.io/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Photo_Project_Makemeupzzz.png": "/BryanJanuardo.github.io/static/media/Photo_Project_Makemeupzzz.1e0bef40deb03bc4db47.png",
+    "static/media/Photo_Project_Tracker.png": "/BryanJanuardo.github.io/static/media/Photo_Project_Tracker.9dc55ea02ce08004c53d.png",
     "index.html": "/BryanJanuardo.github.io/index.html",
     "main.7db926ed.css.map": "/BryanJanuardo.github.io/static/css/main.7db926ed.css.map",
-    "main.c5d4b1b3.js.map": "/BryanJanuardo.github.io/static/js/main.c5d4b1b3.js.map",
+    "main.3029ca8f.js.map": "/BryanJanuardo.github.io/static/js/main.3029ca8f.js.map",
     "453.6a54098e.chunk.js.map": "/BryanJanuardo.github.io/static/js/453.6a54098e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7db926ed.css",
-    "static/js/main.c5d4b1b3.js"
+    "static/js/main.3029ca8f.js"
   ]
 }
