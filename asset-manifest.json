@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BryanJanuardo.github.io/static/css/main.7db926ed.css",
+    "main.js": "/BryanJanuardo.github.io/static/js/main.c5d4b1b3.js",
+    "static/js/453.6a54098e.chunk.js": "/BryanJanuardo.github.io/static/js/453.6a54098e.chunk.js",
+    "static/media/Photo_Profile.png": "/BryanJanuardo.github.io/static/media/Photo_Profile.1fcf2665e54ecd0fcf2b.png",
+    "static/media/Lato-Regular.ttf": "/BryanJanuardo.github.io/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "index.html": "/BryanJanuardo.github.io/index.html",
+    "main.7db926ed.css.map": "/BryanJanuardo.github.io/static/css/main.7db926ed.css.map",
+    "main.c5d4b1b3.js.map": "/BryanJanuardo.github.io/static/js/main.c5d4b1b3.js.map",
+    "453.6a54098e.chunk.js.map": "/BryanJanuardo.github.io/static/js/453.6a54098e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db926ed.css",
+    "static/js/main.c5d4b1b3.js"
+  ]
+}
