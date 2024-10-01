@@ -1,4 +1,5 @@
 import Game2DPlatform from '../../Images/Games/Photo_Project_2DPlatformGame.png';
+import Game2DPlatformGif from '../../Images/Projects/Games/GIF_Project_2DPlatformGame.gif'
 
 interface Project {
   title: string;
@@ -23,7 +24,7 @@ const projectData: Project[] = [
     language: [
         'C#', 'Unity',
     ],
-    image: Game2DPlatform,
+    image: Game2DPlatformGif,
     github: '',
     collabs: {
         name: [''],
