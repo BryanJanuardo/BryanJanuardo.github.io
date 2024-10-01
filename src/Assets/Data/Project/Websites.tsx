@@ -29,6 +29,7 @@ interface Project {
         'Authentication: Secure login and user management.',
         'Wishlist: Users can save books for later use.',
         'Progression: Users can track their progress in reading books.',
+        'Database Integration: Fully functional website with MySQL database support.',
       ],
       year: '2024',
       language: [
@@ -90,6 +91,7 @@ interface Project {
         'Movie Ticket Booking: Users can select films and book tickets.',
         'Movie Management: Manage movie details, genres, and schedules.',
         'Authentication System: User registration and login for secure access.',
+        'Database Integration: Fully functional website with MySQL database support.',
       ],
       year: '2023',
       language: [
@@ -123,7 +125,7 @@ interface Project {
         'Worker Application: Users can apply to become service providers.',
         'Admin Worker Management: Manage worker profiles and services.',
         'Search & Filter Skills: Filter workers based on skills for targeted searches.',
-        'Database Integration: Fully functional website with SQL database support.',
+        'Database Integration: Fully functional website with MySQL database support.',
       ],
       year: '2024',
       language: [
@@ -149,7 +151,8 @@ interface Project {
       title: 'WearHouse: Product Management App',
       description: [
         'Product Management: Add, update, display, and organize products efficiently.',
-        'Authentication System: Secure user registration and login.'
+        'Authentication System: Secure user registration and login.',
+        'Database Integration: Fully functional website with SQL database support.',
       ],
       year: '2023',
       language: [
