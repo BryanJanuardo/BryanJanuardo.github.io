@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import SubNavbar from './Components/SubNavbar';
 import ProfileCard from './Components/ProfileCard';
 import ContentCard from './Components/ContentCard';
 import Title from './Components/Title';
@@ -14,19 +15,33 @@ function App() {
     <div>
       
       <Navbar/>
-      <div className='z-10'>
-        <ProfileCard/>
+      <div className=''>
+        <section id='introduction'>
+          <ProfileCard/>
+        </section>
 
-        <div className='flex flex-col items-center'>
-          <Title text="Projects"/>
-          <hr className=' mb-4 w-3/4 border-2 border-dark' />
-          <Subtitle text='Websites'/>
-          <ContentCard projectData={DataProjectWebsites} />
-          <Subtitle text='Mobiles'/>
-          <ContentCard projectData={DataProjectMobiles} />
-          <Subtitle text='Games'/>
-          <ContentCard projectData={DataProjectGames} />
-        </div>
+        <section id='projects'>
+          <div className='flex flex-col items-center'>
+            <Title text="Projects"/>
+            <hr className='rounded mb-4 w-3/4 border-2 border-dark' />
+            
+            <SubNavbar contents={["Websites", "Mobiles", "Games"]}/>
+            <div>
+              <section className='w-full flex flex-col items-center' id='Websites'>
+                <Subtitle text='Websites'/>
+                <ContentCard projectData={DataProjectWebsites} />
+              </section>
+              <section className='w-full flex flex-col items-center' id='Mobiles'>
+                <Subtitle text='Mobiles'/>
+                <ContentCard projectData={DataProjectMobiles} />
+              </section>
+              <section className='w-full flex flex-col items-center' id='Games'>
+                <Subtitle text='Games'/>
+                <ContentCard projectData={DataProjectGames} />
+              </section>
+            </div>
+          </div>
+        </section>
         
       </div>
     </div>

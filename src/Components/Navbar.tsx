@@ -8,14 +8,14 @@ const Navbar = () => {
     
     return (
         <div>
-        <nav className="p-4 text-white bg-dark">
+        <nav className="p-4 w-full text-white bg-dark">
             <div className="h-full container mx-auto flex justify-between items-center">
                 <ul className="h-full hidden md:flex space-x-8">
-                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#">Home</a></li>
-                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#">Projects</a></li>
-                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#">Experiences</a></li>
-                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#">Certificates</a></li>
-                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#">Researches</a></li>
+                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#introduction">Home</a></li>
+                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#projects">Projects</a></li>
+                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#experiences">Experiences</a></li>
+                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#certificates">Certificates</a></li>
+                <li className='h-full hover:underline underline-offset-8 transition duration-300 ease-in-out'><a href="#researches">Researches</a></li>
                 </ul>
             </div>
 

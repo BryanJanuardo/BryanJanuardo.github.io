@@ -2,6 +2,7 @@ import BeebookPhoto from '../../Images/Projects/Websites/Photo_Project_Beebook.p
 import CinemalixPhoto from '../../Images/Projects/Websites/Photo_Project_Cinemalix.png';
 import Makemeupzz from '../../Images/Projects/Websites/Photo_Project_Makemeupzzz.png';
 import Caritukang from '../../Images/Projects/Websites/Photo_Project_Caritukang.png';
+import Wearhouse from '../../Images/Projects/Websites/Photo_Project_Wearhouse.png';
 
 interface Project {
     title: string;
@@ -145,15 +146,16 @@ interface Project {
     },
     
     {
-      title: '',
+      title: 'WearHouse: Product Management App',
       description: [
-        '',
+        'Product Management: Add, update, display, and organize products efficiently.',
+        'Authentication System: Secure user registration and login.'
       ],
-      year: '',
+      year: '2023',
       language: [
-        '',
+        'HTML', 'CSS', 'JS', 'JQuery', 'C#', 'SQL Server', 'ASP.NET',
       ],
-      image: '',
+      image: Wearhouse,
       github: '',
       collabs: {
         name: [''],
