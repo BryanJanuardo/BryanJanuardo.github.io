@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a5f972b.css",
-    "main.js": "/static/js/main.fcec8adc.js",
+    "main.css": "/static/css/main.7d741a04.css",
+    "main.js": "/static/js/main.82f23ffd.js",
     "static/js/453.6a54098e.chunk.js": "/static/js/453.6a54098e.chunk.js",
+    "static/media/Photo_Experience_ActivistBNCC.png": "/static/media/Photo_Experience_ActivistBNCC.f0fa3af021bc6a37dc31.png",
+    "static/media/GIF_Project_2DPlatformGame.gif": "/static/media/GIF_Project_2DPlatformGame.5b1d94302c5053623b8c.gif",
     "static/media/Photo_Project_Cinemalix.png": "/static/media/Photo_Project_Cinemalix.49f21b682607101c0cc1.png",
     "static/media/Photo_Project_Beebook.png": "/static/media/Photo_Project_Beebook.8014136533defd6c341a.png",
     "static/media/Photo_Profile.png": "/static/media/Photo_Profile.1fcf2665e54ecd0fcf2b.png",
@@ -11,15 +13,15 @@
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/Photo_Project_Makemeupzzz.png": "/static/media/Photo_Project_Makemeupzzz.1e0bef40deb03bc4db47.png",
     "static/media/Photo_Project_Tracker.png": "/static/media/Photo_Project_Tracker.9dc55ea02ce08004c53d.png",
+    "static/media/Photo_Experience_MemberBNCC.png": "/static/media/Photo_Experience_MemberBNCC.a5bfbe14bc887c30ae96.png",
     "static/media/Photo_Project_Wearhouse.png": "/static/media/Photo_Project_Wearhouse.475290ddc0cc58f0e094.png",
-    "static/media/Photo_Project_2DPlatformGame.png": "/static/media/Photo_Project_2DPlatformGame.1eafde9fd69b6110071d.png",
     "index.html": "/index.html",
-    "main.4a5f972b.css.map": "/static/css/main.4a5f972b.css.map",
-    "main.fcec8adc.js.map": "/static/js/main.fcec8adc.js.map",
+    "main.7d741a04.css.map": "/static/css/main.7d741a04.css.map",
+    "main.82f23ffd.js.map": "/static/js/main.82f23ffd.js.map",
     "453.6a54098e.chunk.js.map": "/static/js/453.6a54098e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a5f972b.css",
-    "static/js/main.fcec8adc.js"
+    "static/css/main.7d741a04.css",
+    "static/js/main.82f23ffd.js"
   ]
 }
