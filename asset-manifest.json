@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d92512d.css",
-    "main.js": "/static/js/main.234f581e.js",
+    "main.css": "/static/css/main.4a5f972b.css",
+    "main.js": "/static/js/main.fcec8adc.js",
     "static/js/453.6a54098e.chunk.js": "/static/js/453.6a54098e.chunk.js",
     "static/media/Photo_Project_Cinemalix.png": "/static/media/Photo_Project_Cinemalix.49f21b682607101c0cc1.png",
     "static/media/Photo_Project_Beebook.png": "/static/media/Photo_Project_Beebook.8014136533defd6c341a.png",
@@ -11,14 +11,15 @@
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/Photo_Project_Makemeupzzz.png": "/static/media/Photo_Project_Makemeupzzz.1e0bef40deb03bc4db47.png",
     "static/media/Photo_Project_Tracker.png": "/static/media/Photo_Project_Tracker.9dc55ea02ce08004c53d.png",
+    "static/media/Photo_Project_Wearhouse.png": "/static/media/Photo_Project_Wearhouse.475290ddc0cc58f0e094.png",
     "static/media/Photo_Project_2DPlatformGame.png": "/static/media/Photo_Project_2DPlatformGame.1eafde9fd69b6110071d.png",
     "index.html": "/index.html",
-    "main.5d92512d.css.map": "/static/css/main.5d92512d.css.map",
-    "main.234f581e.js.map": "/static/js/main.234f581e.js.map",
+    "main.4a5f972b.css.map": "/static/css/main.4a5f972b.css.map",
+    "main.fcec8adc.js.map": "/static/js/main.fcec8adc.js.map",
     "453.6a54098e.chunk.js.map": "/static/js/453.6a54098e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d92512d.css",
-    "static/js/main.234f581e.js"
+    "static/css/main.4a5f972b.css",
+    "static/js/main.fcec8adc.js"
   ]
 }
