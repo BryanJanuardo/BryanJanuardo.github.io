@@ -33,7 +33,7 @@ const ExperiencesCard: React.FC<listExperience> = ({experienceData}) => {
           </div>
           
           <div className="w-full mx-4">
-            <h2 id="projectTitle" className="text-center text-dark text-2xl font-bold mb-4">{`${currentExperience.title} ${currentExperience.year ? `(${currentExperience.year})` : '' }`}</h2>
+            <h2 id="experienceTitle" className="text-center text-dark text-2xl font-bold mb-4">{`${currentExperience.title} ${currentExperience.year ? `(${currentExperience.year})` : '' }`}</h2>
             <ul className='text-dark'>
               {currentExperience.description.map((desc, idx) => (
                   <li key={idx} className='list-disc text-base'>{desc}</li>

@@ -8,6 +8,7 @@ import Title from './Components/Title';
 import Subtitle from './Components/Subtitle';
 
 import DataExperienceOrganizations from './Assets/Data/Experience/Organizations';
+import DataExperienceWorkExperiences from './Assets/Data/Experience/WorkExperiences';
 
 import DataProjectWebsites from './Assets/Data/Project/Websites';
 import DataProjectMobiles from './Assets/Data/Project/Mobiles';
@@ -29,11 +30,15 @@ function App() {
             <Title text="Experiences"/>
             <hr className='rounded mb-4 w-3/4 border-2 border-dark' />
 
-            <SubNavbar contents={["Organizations", "Internships"]}/>
+            <SubNavbar contents={["Organizations", "Work Experiences"]}/>
             <div>
               <section className='w-full flex flex-col items-center' id='Organizations'>
                 <Subtitle text='Organizations'/>
                 <ExperienceCard experienceData={DataExperienceOrganizations} />
+              </section>
+              <section className='w-full flex flex-col items-center' id='Work Experiences'>
+                <Subtitle text='Work Experiences'/>
+                <ExperienceCard experienceData={DataExperienceWorkExperiences} />
               </section>
             </div>
           </div>
