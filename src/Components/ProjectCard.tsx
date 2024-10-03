@@ -29,7 +29,6 @@
     };
 
     const currentProject = projectData[currentIndex];
-    console.log(currentProject.image)
     return (
       <div className="w-full py-4 md:w-2/3 my-4 px-4 py-10 gap-4 flex flex-col justify-center relative border border-gray-300 rounded-lg shadow-lg overflow-hidden bg-gradient-to-br from-gray-50 to-white transition-transform transform hover:scale-105 duration-300 ease-in-out">
         <div className="flex p-4 flex-col md:flex-row gap-8 bg-white items-center w-full relative rounded-lg shadow-md">

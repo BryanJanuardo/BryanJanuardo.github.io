@@ -28,11 +28,11 @@ const Navbar = () => {
             </div>
 
             <div id="menu" className={`md:hidden mt-4 ${menu ? '' : 'hidden'}`}>
-                <a href="#" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Home</a>
-                <a href="#" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Experiences</a>
-                <a href="#" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Projects</a>
-                <a href="#" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Certificates</a>
-                <a href="#" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Researches</a>
+                <a href="#introduction" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Home</a>
+                <a href="#experiences" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Experiences</a>
+                <a href="#projects" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Projects</a>
+                <a href="#certificates" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Certificates</a>
+                <a href="#researches" className="block py-2 text-white text-lg hover:bg-lightdark transition duration-300 ease-in-out">Researches</a>
             </div>
         </nav>
         </div>
